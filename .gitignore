@@ -1,0 +1,18 @@
+# outputs: checkpoints, JSON results, generated figures, job logs
+runs/
+*.pt
+*.npz
+*.out
+slurm-*.out
+wandb/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data
+data/
+
+# figure rasters written beside the PDFs by make_figs.py
+figures/*.png

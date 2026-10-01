@@ -1,0 +1,13 @@
+# Pinned loosely: these are the versions the reported runs used. Any recent
+# PyTorch with CUDA works; nothing here depends on a specific torch release.
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+tqdm>=4.65
+transformers>=4.30        # sentence-t5-base text encoder
+sentencepiece>=0.1.99     # required by T5Tokenizer
+
+# Optional. Logging only; every reported number is printed and written to JSON
+# without it. Enable with USE_WANDB=1.
+# wandb>=0.15
